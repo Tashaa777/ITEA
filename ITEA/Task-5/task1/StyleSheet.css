@@ -1,0 +1,102 @@
+body {
+    width: 600px; 
+    height: 500px; 
+    border: 1px solid #000000; 
+ }
+ 
+ #one {
+    z-index: 00;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    left:auto;
+    border: 1px solid black;
+ }
+
+ #two {
+    z-index: 000;
+    width: 249px;
+    height: 60px;
+    position: absolute;
+    left: 160px;
+    border: 1px solid black;
+ }
+
+ #three {
+    z-index: 000;
+    width: 199px;
+    height: 244px;
+    position: absolute;
+    left: 410px;
+    border: 1px solid black;
+ }
+
+ #four {
+    z-index: 000;
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    left:auto;
+    top: 70px;
+    border: 1px solid black;
+ }
+
+ #five {
+    z-index: 00;
+    width: 150px;
+    height: 377px;
+    position: relative;
+    left: auto;
+    top: 122px;
+    border: 1px solid black;
+ }
+
+ #six {
+    z-index: 00;
+    width: 249px;
+    height: 60px;
+    position: relative;
+    left: 151px;
+    top: -257px;
+    border: 1px solid black;
+ }
+
+ #seven {
+    z-index: 00;
+    width: 249px;
+    height: 60px;
+    position: relative;
+    left: 151px;
+    top: -257px;
+    border: 1px solid black;
+ }
+
+ #eight {
+    z-index: 000;
+    width: 449px;
+    height: 160px;
+    position: relative;
+    left: 151px;
+    top: -258px;
+    border: 1px solid black;
+ }
+
+ #nine {
+    z-index: 00;
+    width: 247px;
+    height: 93px;
+    position: relative;
+    left: 151px;
+    top: -259px;
+    border: 1px solid black;
+ }
+
+ #ten {
+    z-index: 00;
+    width: 200px;
+    height: 93px;
+    position: relative;
+    left: 399px;
+    top: -354px;
+    border: 1px solid black;
+ }

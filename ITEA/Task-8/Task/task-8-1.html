@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./task-8-1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <form action="" class="form-1">
+        <label for="name" class="form-1__label">Your name</label>
+        <input type="text" name="name" class="form-1__input" />
+        <br />
+        <label for="email" class="form-1__label">Your email</label>
+        <input type="email" name="email" class="form-1__input" />
+        <br />
+        <label for="topic" class="form-1__label">Message topic</label>
+        <select name="topic" class="form-1__select">
+          <option value="first"></option>
+        </select>
+        <br />
+        <label for="text" class="form-1__label form-1__label_top">Text *</label>
+        <textarea
+          class="form-1__textarea"
+          cols="50"
+          rows="10"
+          name="text"
+        ></textarea>
+        <br />
+        <label for="spam-protection" class="form-1__label">Spam safe *</label>
+        <input type="text" name="spam-protection" class="spam-input" />
+        <br />
+        <a href="#" class="form-1__upadate"> update picture </a>
+        <img class="form-1__captcha" src="./img/captcha.png" alt="alt" />
+        <br />
+        <input type="submit" value="send" class="form-1__submit" />
+      </form>
+    </section>
+
+    <section>
+      <form class="form-2">
+        <span class="form-2__title">Sign up</span><br />
+        <div class="form-2__wrapper">
+          <div class="form-2__label">Name</div>
+          <input
+            class="form-2__input"
+            type="text"
+            name="name"
+            placeholder="Michael Hartl"
+          />
+        </div>
+        <div class="form-2__wrapper">
+          <div class="form-2__label">Email</div>
+          <input
+            class="form-2__input"
+            type="text"
+            name="email"
+            placeholder="mhart@example.com"
+          />
+        </div>
+        <div class="form-2__wrapper">
+          <div class="form-2__label">Password</div>
+          <input class="form-2__input" type="password" name="password" />
+        </div>
+        <div class="form-2__wrapper">
+          <div class="form-2__label">Confirmation</div>
+          <input class="form-2__input" type="password" name="Confirmation" />
+        </div>
+        <div>
+          <input
+            type="submit"
+            class="form-2__button"
+            value="Create my account"
+          />
+        </div>
+      </form>
+    </section>
+    <section>
+      <form action="" class="form-3">
+        <div class="form-3__header">
+          <div class="form-3__title">Contact Manager</div>
+          <select name="State" id="form-3-actions">
+            <option value="1">more Actionns</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="form-3__wrapper">
+          <div class="form-3__left">
+            <label class="form-3__label" for="">
+              <span>first name <span class="form__requaried">*</span></span>
+              <input class="form-3__feald" name="name" type="text" required />
+            </label>
+            <label class="form-3__label" for="">
+              <span>Last name <span class="form__requaried">*</span></span>
+              <input
+                class="form-3__feald"
+                name="Last name "
+                type="text"
+                required
+              />
+            </label>
+            <label class="form-3__label" for="">
+              <span>address <span class="form__requaried">*</span></span>
+              <textarea
+                name="address"
+                id="form-3-textarea-address"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+            <label class="form-3__label" for="">
+              city
+              <input class="form-3__feald" name="city" type="text" />
+            </label>
+            <label class="form-3__label" for="">
+              State
+              <select name="State" id="form-3-state">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+            <label class="form-3__label" for="">
+              Home phone
+              <input class="form-3__feald" name="Home phone" type="number" />
+            </label>
+
+            <label class="form-3__label" for="">
+              <span>Work phone <span class="form__requaried">*</span></span>
+              <input
+                class="form-3__feald"
+                name="Work phone"
+                type="number"
+                required
+              />
+            </label>
+            <label class="form-3__label" for="">
+              Fax Number
+              <input class="form-3__feald" name="Fax Number" type="number" />
+            </label>
+            <div class="form-3__website">
+              <div class="form-3__website-title">website</div>
+
+              <div class="form-3__website-wrapper">
+                <label class="form-3__label" for="">
+                  URL
+                  <input
+                    class="form-3__feald form-3__website-feald"
+                    name="URL"
+                    type="text"
+                  />
+                </label>
+                <label class="form-3__label" for="">
+                  Link Name
+                  <input
+                    class="form-3__feald form-3__website-feald"
+                    name="Link Name"
+                    type="text"
+                  />
+                </label>
+              </div>
+            </div>
+            <label class="form-3__label" for="">
+              <span>Email address <span class="form__requaried">*</span></span>
+              <input class="form-3__feald" name="Email address" type="email" />
+            </label>
+          </div>
+
+          <div class="form-3__right">
+            <div class="form-3__best-time">
+              <div class="form-3__ask">
+                when is the best time to contact you?
+              </div>
+
+              <div class="form-3__radio">
+                <label class="form-3__radio-label" for="">
+                  <input name="bes-time" type="radio" />
+                  Morning
+                </label>
+                <label class="form-3__radio-label" for="">
+                  <input name="bes-time" type="radio" />
+                  Afternoon
+                </label>
+                <label class="form-3__radio-label" for="">
+                  <input name="bes-time" type="radio" />
+                  Evening
+                </label>
+              </div>
+            </div>
+
+            <div class="form-3__best-way">
+              <div class="form-3__ask">
+                what is the best time to contact you?
+              </div>
+              <div class="form-3__radio">
+                <label class="form-3__radio-label" for="">
+                  <input name="bes-time-contact" type="radio" />
+                  Phone
+                </label>
+                <label class="form-3__radio-label" for="">
+                  <input name="bes-time-contact" type="radio" />
+                  Email
+                </label>
+                <label class="form-3__radio-label" for="">
+                  <input name="bes-time-contact" type="radio" />
+                  Fax
+                </label>
+              </div>
+            </div>
+
+            <label class="form-3__label" for="">
+              <span>Message <span class="form__requaried">*</span></span>
+              <textarea
+                name="address"
+                id="form-3-textarea-message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-3__footer">
+          <input class="form-3__button" type="submit" value="submit" />
+          <input class="form-3__button" type="reset" value="reset" />
+        </div>
+      </form>
+    </section>
+    <section>
+      <form action="" class="form-4">
+        <div class="form-4__header">CONTACT FORM</div>
+        <div class="form-4__main">
+          <div class="form-4__box">
+            <label for="fullName" class="form-4__label" for=""
+              >Full name *</label
+            >
+            <input
+              id="fullName"
+              class="form-4__input"
+              name="full name"
+              type="text"
+            />
+          </div>
+          <div class="form-4__box">
+            <label for="fullName" class="form-4__label" for="">Email *</label>
+            <input
+              id="fullName"
+              class="form-4__input"
+              name="full name"
+              type="text"
+            />
+          </div>
+
+          <div class="form-4__box">
+            <label for="fullName" class="form-4__label" for="">Subject *</label>
+            <input
+              id="fullName"
+              class="form-4__input"
+              name="full name"
+              type="text"
+            />
+          </div>
+
+          <div class="form-4__box form-4__box-textarea">
+            <label for="fullName" class="form-4__label" for="">Message *</label>
+            <textarea
+              class="message"
+              name=""
+              id="form-1-textarea"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="form-4__foooter">
+            <input type="submit" class="form-4__button" value="Submit Form" />
+          </div>
+        </div>
+      </form>
+    </section>
+    <section>
+      <form action="" class="form-5">
+        <div class="form-5__header">Login form</div>
+        <div class="form-5__main">
+          <label class="form-5__label" for="">
+            <span>email</span>
+            <input class="form-5__email" name="email" type="text" />
+          </label>
+          <label class="form-5__label" for="">
+            <span>password</span>
+            <input class="form-5__name" name="password" type="password" />
+          </label>
+
+          <div class="form__wrapper">
+            <div class="form__keep-box">
+              <a class="form-5__fogot" href="#"> Fogot password?</a>
+              <div class="form-5__wrapper-check">
+                <input
+                  id="keep-check"
+                  class="form-5__keep-check"
+                  name="password"
+                  type="checkbox"
+                />
+                <label for="keep-check" class="form-5__keep-label" for="">
+                  Keep me logged in
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-5__footer">
+          <button class="form-5__register" type="button" disabled>
+            register
+          </button>
+          <button type="button">Log in</button>
+        </div>
+      </form>
+    </section>
+  </body>
+  <script>
+    const check = document.querySelector("#keep-check");
+    const btn = document.querySelector(".form-5__register");
+    check.addEventListener("input", (e) => {
+      if (e.target.checked) {
+        btn.disabled = false;
+      } else {
+        btn.disabled = true;
+      }
+    });
+  </script>
+</html>

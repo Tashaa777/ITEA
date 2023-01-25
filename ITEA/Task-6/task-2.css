@@ -1,0 +1,55 @@
+a {
+  color: #585858;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #c2c2c2;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(231, 230, 230);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.menu {
+  display: inline-block;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0
+}
+
+.nav-item {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Hanken Grotesk", sans-serif;
+  border-right: solid 1px #c6c5c5;
+}
+
+.nav-item:hover {
+  font-weight: bolder;
+  color: black;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.nav-item a {
+  display: block;
+  padding: 15px;
+}
+
+.nav-item:last-child {
+  border: none;
+}

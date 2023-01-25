@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+  }
+  .picture {
+    background-image: url(../Images/garden.jpg);
+    background-repeat: repeat-x;
+    background-size: content;
+    background-position: center center;
+    position: relative;
+    padding: 5px;
+    padding-bottom: 130px;
+    margin: 130px 0;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .menu {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+  }
+
+  .list {
+    display: block;
+    height: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nav-item {
+    color: white;
+    display: inline-block;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 16px;
+    padding: 0 10px;
+    box-shadow: 1px 8px 1px -8px white;
+  }
+  .header-line {
+    color: white;
+    box-shadow: inset 0px -13px 3px -13px rgb(250 247 250);
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 650px;
+    height: 5px;
+  }
+  .header-title {
+    color: white;
+    font-size: 60px;
+    font-family: "Alfa Slab One", cursive;
+    box-shadow: inset 0px -13px 3px -13px rgb(250 247 250);
+
+    display: block;
+    margin: 0 auto;
+
+    width: 650px;
+    line-height: 65px;
+    margin-top: 5px;
+  }
+
+  .header-subtitle {
+    color: rgb(234, 197, 28);
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    box-shadow: 1px 8px 1px -8px white;
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  .img {
+    width: 5%;
+    height: 5%;
+    margin-top: 10px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: gray;
+  }

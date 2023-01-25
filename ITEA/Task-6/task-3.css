@@ -1,0 +1,25 @@
+a {
+  color: #d6d1d1;
+  text-decoration: none;
+}
+ul {
+  width: 300px;
+  background: #4f4f4f;
+  color: white;
+  list-style: none;
+  padding: 30px;
+}
+
+li {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #292929;
+  border-right: none;
+  border-radius: 10px 0px 0px 10px;
+   box-shadow: 0px 0px 0px 1px rgba(72, 72, 72, 0.87);
+  
+}
+li:hover{
+  background: #232323;
+  /* box-shadow: inset 0px 0px 0px 1px rgba(15, 15, 15, 0.87); */
+}

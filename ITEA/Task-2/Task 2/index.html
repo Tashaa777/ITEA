@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создать карту изображения </title>
+    <style>
+        .center-img {
+            display: block;
+            margin: 0 auto ;
+        }
+        </style>
+
+</head>
+<body>
+    <img class="center-img" src="../Images/002_img.jpg" usemap="#mymap" width="914px" >
+    
+    <map name="mymap">
+        <area href="https://www.google.com.ua" shape="circle" coords="215, 484, 99" alt="коло" title="коло"></area>
+
+        <area href="https://www.google.com.ua" shape="rect" coords="640, 391, 834, 433 " alt="прямокутник" title="прямокутник"></area> 
+
+        <area href="https://www.google.com.ua" shape="poly" coords="371, 482, 365, 134, 517, 399" alt="трикутник" title="трикутник"></area>
+
+    </map>
+    
+</body>
+</html>

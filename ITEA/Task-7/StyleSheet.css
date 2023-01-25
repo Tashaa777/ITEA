@@ -1,0 +1,159 @@
+body {
+  margin-top: 50px;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.first,
+.second,
+.third {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.node::before {
+  position: absolute;
+  content: "";
+  top: -8px;
+  height: 5px;
+  width: 5px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotate(-45deg) translate(-1px, 0px);
+}
+
+.arrowCenter::after {
+  position: absolute;
+  top: -30px;
+  transform: translate(0px, 0px);
+  content: "";
+  height: 30px;
+  width: 1px;
+  border-left: 1px solid #000;
+}
+
+.arrowFull::after {
+  position: absolute;
+  content: "";
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  width: 183px;
+  height: 15px;
+  top: -15px;
+  left: 50%;
+  transform: translate(calc(-50% + -1px), 0%);
+}
+
+.arrowLeft::after {
+  position: absolute;
+  content: "";
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  width: 185px;
+  height: 15px;
+  top: -15px;
+  left: 30px;
+  transform: translate(-1px, 0%);
+}
+.arrowHalfBottom::after {
+  position: absolute;
+  top: -15px;
+  transform: translate(-1px, 0px);
+  content: "";
+  height: 15px;
+  width: 1px;
+  background: #000;
+}
+.node {
+  top: -70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: solid 1px black;
+  height: 40px;
+  width: 60px;
+}
+.node-box {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  width: 246px;
+}
+/* scheme 1 */
+
+
+.first__box-a {
+  justify-content: space-between;
+}
+
+.first__head-a {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+}
+.first__head-a::before {
+  display: none;
+}
+
+/* scheme 2 */
+.second__box-Pi {
+  top: 70px;
+}
+.second__head-pi {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+}
+
+.second__box-10 {
+  top: 70px;
+
+  justify-content: space-between;
+}
+.second__head-10 {
+  position: absolute;
+  right: 0%;
+  transform: translate(0%, 0%);
+}
+
+.second__box-b {
+  justify-content: flex-start;
+}
+.second__head-b {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+}
+.second__head-b::before {
+  display: none;
+}
+
+/* scheme 3 */
+
+
+.third__box-C {
+  justify-content: space-between;
+}
+.third__head-C {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+}
+.third__head-C::before {
+  display: none;
+}
+.third__box-60 {
+  top: 70px;
+  justify-content: space-between;
+}
+.third__head-60 {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+}
